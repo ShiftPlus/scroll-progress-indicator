@@ -11,7 +11,9 @@ body {
   height: 3px;
   position: fixed;
   top: 0;
-  background-color: royalblue;
+  background: #00F260;
+  background: -webkit-linear-gradient(to left, #0575E6, #00F260);
+  background: linear-gradient(to left, #0575E6, #00F260);
 }
 
 h1 {
@@ -25,4 +27,17 @@ section {
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.12);
+}
+
+footer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+footer>p {
+  padding: 2rem;
+  font-weight: lighter;
+  color: rgb(99, 99, 99);
+  font-size: 14px;
 }
